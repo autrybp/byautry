@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>byAutry | GFX, Web Dev & More</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+  <nav class="transparent-navbar">
+    <div class="nav-left">
+      <a href="/" class="text-logo">byAutry</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#gfx-work">GFX Design</a>
+      <a href="#webdev-work">Web Dev</a>
+      <a href="#friends">Friends</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+
+  <nav class="transparent-navbar">
+  <div class="nav-left">
+    <a href="/" class="back-button">byAutry</a>
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+
+  <div class="nav-right" id="nav-links">
+    <a href="#gfx-work">GFX Design</a>
+    <a href="#webdev-work">Web Dev</a>
+    <a href="#friends">Friends</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+  <header class="hero">
+    <div class="container">
+      <h1 class="fade-in">Autry - GFX Designer with Passion for Web Development</h1>
+      <p>I love creating designs and building websites that please the eye. Mostly, I focus on brand identity and clean visuals.</p>
+    </div>
+  </header>
+
+<section id="gfx-work" class="portfolio-section founders">
+  <div class="container">
+    <h2 class="fade-in">Graphic Design & UI/UX</h2>
+    <p>As the founder of Piximo, I specialize in crafting powerful, memorable brands and digital interfaces using Illustrator and Photoshop.</p>
+  </div>
+  <div class="founders-cards">
+    <a href="https://piximo.net" class="founder-card" target="_blank" rel="noopener noreferrer">
+      <span class="founder-name">PIXIMO</span>
+      <span class="founder-roles">
+        UI/UX Design<br />
+        Branding<br />
+        Illustration
+      </span>
+    </a>
+    <div class="founder-card">
+      <span class="founder-name">Client Work</span>
+      <span class="founder-roles">
+        Case Studies<br />
+        Typography<br />
+        Brand Identity
+      </span>
+    </div>
+    <div class="founder-card">
+      <span class="founder-name">Illustration</span>
+      <span class="founder-roles">
+        Vector Art<br />
+        Digital Painting<br />
+        Visual Concepts
+      </span>
+    </div>
+  </div>
+</section>
+
+  <div class="divider">
+    <h2 class="fade-in">Web Development Projects</h2>
+    <p>Bringing my design sensibilities to the world of code, building engaging web experiences from the ground up.</p>
+  </div>
+
+<section id="webdev-work" class="partners">
+  <div class="container">
+    <h2 class="fade-in">Projects on GitHub</h2>
+    <div class="partner-logos">
+      <a href="https://github.com/autrybp/ro3" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/ro3-logo.png" alt="RO3 Society Logo" />
+      </a>
+      <a href="https://github.com/autrybp/piximo" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/piximo-logo.png" alt="Piximo Logo" />
+      </a>
+      <a href="https://github.com/autrybp/midnightspeedstars" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/ms-logo.png" alt="Midnight Speedstars Logo" />
+      </a>
+    </div>
+    <p class="partners-description">From community platforms to UI/UX showcases, these projects highlight my journey into web development and my growing proficiency in modern web technologies.</p>
+  </div>
+</section>
+
+<section id="friends" class="portfolio-section friends">
+  <div class="container">
+    <h2 class="fade-in">Friends & Collaborators</h2>
+    <p>Check out the incredible work of some talented people I know. </p>
+  </div>
+  <div class="friends-grid">
+    <a href="https://cx0i.xyz" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">CX0I</span>
+      <span class="friend-roles">
+        Game Developer<br>
+        Indie Creator<br>
+        Scratch Developer
+      </span>
+    </a>
+    <a href="https://instagram.com/leonphotos" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">LEON</span>
+      <span class="friend-roles">
+        Astrophotographer<br>
+        Color Correction Specialist<br>
+        GFX Designer
+      </span>
+    </a>
+    <a href="https://instagram.com/nasro350z" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">NASRO</span>
+      <span class="friend-roles">
+        Motion Designer<br>
+        Cars Specialist<br>
+        GFX Designer
+      </span>
+    </a>
+    <a href="https://ducc.dev" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">DUCC</span>
+      <span class="friend-roles">
+        Fullstack Developer<br>
+        React Engineer<br>
+        Network Specialist
+      </span>
+    </a>
+    <a href="#" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">MILLER</span>
+      <span class="friend-roles">
+        Founder of Miller's Studio<br>
+        3D Designer<br>
+        Unity Developer
+      </span>
+    </a>
+    <a href="https://instagram.com/verpluvia" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">VERPLUVIA</span>
+      <span class="friend-roles">
+        Founder of Creati<br>
+        Marketing Specialist<br>
+        GFX Designer
+      </span>
+    </a>
+    <a href="#" class="friend-card" target="_blank" rel="noopener noreferrer">
+      <span class="friend-name">YOUNES</span>
+      <span class="friend-roles">
+        Digital Artist<br>
+        Illustrator<br>
+        Concept Artist
+      </span>
+    </a>
+  </div>
+</section>
+
+
+  <section id="about" class="mission">
+    <div class="container">
+      <h2 class="fade-in">About byAutry</h2>
+      <p>I'm a designer first, but I'm building on that foundation by mastering web development.</p>
+      <div class="video-container">
+        <video controls>
+          <source src="assets/media/showreel.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <section class="join-us">
+  <div class="container">
+    <h2 class="fade-in">Let's Create Something Awesome</h2>
+    <p>Whether you need a brand identity, a unique user interface, or a custom website, I'm ready to collaborate on your next project.</p>
+    <div>
+      <a href="mailto:contact@byautry.com" class="btn-join">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
