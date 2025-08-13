@@ -149,7 +149,7 @@ body {
 }
 
 .partner-logos img {
-  max-width: 100%;
+  max-width: 50%;
   filter: brightness(0) invert(1);
   transition: transform 0.3s ease;
 }
